@@ -1,12 +1,9 @@
 # Salih-Dataset-ADDoS
 This is a dataset collected to study the impact of TCP flood DDoS attack is done in the Cloud.
 
-.table-wrapper {
-  overflow-x: scroll;
-}
+
 
 List of Features
-<div class="table-wrapper" markdown="block">
 | #   | Feature   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-----|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | %usr      | Percentage of   CPU utilization that occurred while executing at the user level (application)                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -244,8 +241,3 @@ List of Features
 | 233 | rx_rps/s  | The   number of times the CPU has been woken up per second to process packets via   an inter-processor interrupt.                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 234 | flw_lim/s | The   number of times the flow limit has been reached per second.  Flow limiting is an optional RPS feature   that can be used to limit the number of packets queued to the backlog for   each flow to a certain amount.  This   can help ensure that smaller flows are processed even though much larger   flows are pushing packets in.                                                                                                                                                                                       |
 | 235 | MHz       | Instantaneous   CPU clock frequency in MHz.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
-
-
-
-</div>
